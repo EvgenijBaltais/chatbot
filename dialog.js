@@ -14,13 +14,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let chatHtml = `
         <div class="chat">
-            <div class="chat-ins">
-            <div class = "ov"></div>
-            </div>
+            <h2 class = "chat-h2">Робот-помощник</h2>
+            <div class="chat-ins"></div>
+        </div>
+    `
+
+    let chatStep = `
+        <div class = "chat-step">
+            <div class = "manager-foto" style = "background-image: url('/img/manager.jpg');"></div>
+            <div class = "manager-text">lorm g e eeeg g wegwe gweg weg weg weg </div>
         </div>
     `
 
     document.body.insertAdjacentHTML('beforeend', chatHtml)
-
+    document.body.querySelector('.chat-ins').insertAdjacentHTML('beforeend', chatStep)
 
 })
