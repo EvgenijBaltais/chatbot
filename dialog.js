@@ -21,7 +21,10 @@ document.addEventListener('DOMContentLoaded', () => {
             return `
                 <div class = "chat-step">
                     <div class = "manager-foto" style = "background-image: url('/img/manager.jpg');"></div>
-                    <div class = "manager-text">${text}${buttons.length ? `<div>${makeButton(buttons[0])}${makeButton(buttons[1])}</div>` : ''}</div>
+                    <div class = "manager-text">
+                        ${text}
+                        ${buttons.length ? `<div>${makeButton(buttons[0])}${makeButton(buttons[1])}</div>` : ''}
+                    </div>
                 </div>`
         },
 

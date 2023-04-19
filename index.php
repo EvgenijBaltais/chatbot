@@ -6,8 +6,20 @@
 	<title>Document</title>
 	<link href="style.css" rel="stylesheet">
 <body>
-	1
 
-	<script src = "dialog.js"></script>
+	<div class = "wrapper">
+
+		<div class = "first-block">
+			<div class="content">
+				
+			</div>
+		</div>
+
+		<div class = "second-block">
+			
+		</div>
+	</div>
+
+	<!--<script src = "dialog.js"></script>-->
 </body>
 </html>
