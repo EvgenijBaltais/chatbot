@@ -6,7 +6,23 @@
 	<title>Document</title>
 </head>
 <body>
+
+	<script src="https://smartcaptcha.yandexcloud.net/captcha.js" defer></script>
 	
+
+<div
+    id="captcha-container"
+    class="smart-captcha"
+    data-sitekey="<ключ_клиента>"
+></div>
+
+<div id="captcha-container" class="smart-captcha" ...>
+    <input type="hidden" name="smart-token" value="<токен>">
+    ...
+</div>
+
+
+
 <div style = "position: relative;width: 700px; height: 700px;margin: 100px auto; outline: 1px solid #ccc;">
 
 	<div class = "dialog">
