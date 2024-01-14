@@ -14,16 +14,34 @@
 
 	<div class = "dialog">
 		<p class = "ask-manager">Есть вопросы?</p>
-		<div class = "dialog-wrapper">
-			
-			<div class = "manager-phrase">
-				<div class = "manager-img"></div>
-				<div class = "manager-text">Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Libero animi maxime velit provident possimus amet sequi officiis eligendi recusandae sint quas enim voluptatum dolorem quia optio consequuntur deleniti aliquam, sed.</div>
+			<div class = "dialog-wrapper">
+				<div class = "manager-phrase">
+					<div class = "manager-img"></div>
+					<div class = "manager-text">Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Lorem ipsum, dolor sit amet consectetur adipisicing, elit. </div>
+				</div>
+				<div class = "manager-phrase">
+					<div class = "manager-img"></div>
+					<div class = "manager-text">Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Lorem ipsum, dolor sit amet consectetur adipisicing, elit. </div>
+				</div>
+				<div class = "manager-phrase">
+					<div class = "manager-img"></div>
+					<div class = "manager-text">Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Lorem ipsum, dolor sit amet consectetur adipisicing, elit. </div>
+				</div>
+				<div class = "manager-phrase">
+					<div class = "manager-img"></div>
+					<div class = "manager-text">Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Lorem ipsum, dolor sit amet consectetur adipisicing, elit. </div>
+				</div>
+				<div class = "manager-phrase">
+					<div class = "manager-img"></div>
+					<div class = "manager-text">Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Lorem ipsum, dolor sit amet consectetur adipisicing, elit. </div>
+				</div>
+				<div class = "manager-phrase">
+					<div class = "manager-img"></div>
+					<div class = "manager-text">Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Lorem ipsum, dolor sit amet consectetur adipisicing, elit. </div>
+				</div>
 			</div>
-
 		</div>
 	</div>
-</div>
 
 	<style>
 		* {
@@ -37,6 +55,7 @@
 			width: 350px;
 			height: 500px;
 			background: #0087D2;
+			overflow: hidden;
 		}
 
 		.dialog-wrapper {
@@ -48,8 +67,14 @@
 			width: calc(100% - 4px);
 			height: calc(100% - 52px);
 			background: #fff;
+			padding: 20px;
+			box-sizing: border-box;
+			overflow: auto;
 		}
 
+		.dialog-wrapper::-webkit-scrollbar {
+			width: 0;
+		}
 		.ask-manager {
 			width: calc(100% - 20px);
 			position: absolute;
@@ -61,13 +86,9 @@
 			font-family: Arial;
 		}
 
-		.dialog-wrapper {
-			padding: 20px;
-			box-sizing: border-box;
-		}
-
 		.manager-phrase {
 			display: flex;
+			margin-bottom: 15px
 		}
 
 		.manager-img {
